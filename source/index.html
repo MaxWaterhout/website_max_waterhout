@@ -1,6 +1,89 @@
-@@include('header.htm')
+<!DOCTYPE html>
 
-@@include('blocks/navigation.htm')
+<!--
+ // WEBSITE: https://themefisher.com
+ // TWITTER: https://twitter.com/themefisher
+ // FACEBOOK: https://www.facebook.com/themefisher
+ // GITHUB: https://github.com/themefisher/
+-->
+
+<html class="no-js">
+    <head>
+        <!-- Basic Page Needs
+        ================================================== -->
+        <meta charset="utf-8">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <link rel="icon" href="favicon.ico">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/5.0.1/css/ionicons.min.css" integrity="sha512-<hash>" crossorigin="anonymous" />
+
+        <title>Timer Agency Template</title>
+        <meta name="description" content="">
+        <meta name="keywords" content="">
+        <meta name="author" content="">
+        <!-- Mobile Specific Metas
+        ================================================== -->
+        <meta name="format-detection" content="telephone=no">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+      
+        <!-- theme meta -->
+        <meta name="theme-name" content="timer" />
+
+        <!-- Template CSS Files
+        ================================================== -->
+        <!-- Twitter Bootstrs CSS -->
+        <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
+        <!-- Ionicons Fonts Css -->
+        <link rel="stylesheet" href="plugins/ionicons/ionicons.min.css">
+        <!-- animate css -->
+        <link rel="stylesheet" href="plugins/animate-css/animate.css">
+        <!-- Hero area slider css-->
+        <link rel="stylesheet" href="plugins/slider/slider.css">
+        <!-- slick slider -->
+        <link rel="stylesheet" href="plugins/slick/slick.css">
+        <!-- Fancybox -->
+        <link rel="stylesheet" href="plugins/facncybox/jquery.fancybox.css">
+        <!-- hover -->
+        <link rel="stylesheet" href="plugins/hover/hover-min.css">
+        <!-- template main css file -->
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+
+
+<!--
+        ==================================================
+        Header Section Start
+        ================================================== -->
+<section class="top-bar animated-header">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <a class="navbar-brand" href="index.html">
+                        <img src="../images/logo.png" alt="logo">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">Home
+                                    <span class="sr-only">(current)</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+</section>
 
 <!--
 ==================================================
@@ -21,12 +104,15 @@ Slider Section Start
                 <b>MACHINE LEARNING ENGINEER</b>
                 <b>DATA ANALYST</b>
                 <b>DATA ENGINEER</b>
+                <b>ARTIFICIAL INTELLIGENCE ENGINEER</b>
               </span>
             </h1>
           </section> <!-- cd-intro -->
           <!-- /.slider -->
-          <h2 class="wow fadeInUp animated" data-wow-delay=".6s">
-            As a robotics engineer, I am interested in mechanical engineering and data science, with a specialization in machine learning. This site serves as a portfolio of my experience and work, highlighting projects that demonstrate my expertise and dedication to technology 
+          <h2 class="wow fadeInUp animated" data-wow-delay=".6s" style="font-weight: bold;">
+            As a robotics engineer, I am interested in mechanical engineering and data science, with a specialization in machine learning. 
+            This site serves as a portfolio of my experience and work, highlighting projects that demonstrate my expertise, dedication and enthusiasm for mastering this technology. 
+            Download my personal curriculum vitae with the button beneath 
           </h2>
           <a class="btn-lines dark light wow fadeInUp animated btn btn-default btn-green hvr-bounce-to-right"
             data-wow-delay=".9s" href="https://mw-cv.tiiny.site" target="_blank">Download curriculum vitae</a>
@@ -50,20 +136,22 @@ About Section Start
             ABOUT ME
           </h2>
           <p>
-            I am a robotics engineer specialized in Machine Learning. 
-            I thrive in a dynamic and fast-paced flat organization that fosters a culture of innovation and encourages collaboration. My goal is to continually expand my knowledge and expertise in MLOps, having complete knowledge of an efficient full machine learning pipeline. 
-
+            As a Robotics engineer I am specialized in Machine Learning with interests in mechanical engineering. 
+            After finishing my master at the University of Delft I was searching for the right path to take. 
+            After working some months, I came to realize that leveraging Artificial Intelligence to solve real-world problems at different companies was where my heart truly lies.
+            I thrive in a dynamic and fast-paced flat organization that fosters a culture of innovation and encourages collaboration and helping each other. 
+            My goal is to continually expand my knowledge and expertise in MLOps, having complete knowledge of an efficient full machine learning pipeline. 
           </p>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, adipisci voluptatum repudiandae, natus
-            impedit repellat aut officia illum at assumenda iusto reiciendis placeat. Temporibus, vero.
+            As a 25 years old I am currently living in Purmerend with my girlfriend. Apart from my professional pursuits, I have a passion for team sports. 
+            Where I actively participate in korfbal at <a href="https://kvbep.nl/">korfbalvereniging BEP</a> and enjoy spectating basketball and football matches in my free time.     
           </p>
         </div>
 
       </div>
       <div class="col-md-6 col-sm-6">
         <div class="block wow fadeInRight" data-wow-delay=".3s" data-wow-duration="500ms">
-          <img src="images/about/about.jpg" alt="">
+          <img src="images/about/selfie.jpeg" alt="" style="width: 70%; height: 70%;">
         </div>
       </div>
     </div>
@@ -78,21 +166,18 @@ Portfolio Section Start
 <section id="works" class="works">
   <div class="container">
     <div class="section-heading">
-      <h1 class="title wow fadeInDown" data-wow-delay=".3s">Latest Works</h1>
+      <h1 class="title wow fadeInDown" data-wow-delay=".3s">Experiences and projects</h1>
       <p class="wow fadeInDown" data-wow-delay=".5s">
-        Aliquam lobortis. Maecenas vestibulum mollis diam. Pellentesque auctor neque nec urna. Nulla sit amet est.
-        Aenean posuere <br> tortor sed cursus feugiat, nunc augue blandit nunc, eu sollicitudin urna dolor sagittis
-        lacus.
+        These experiences complement my professional journey!
       </p>
     </div>
     <div class="row">
       <div class="col-md-4 col-sm-6">
         <figure class="wow fadeInLeft animated portfolio-item" data-wow-duration="500ms" data-wow-delay="0ms">
           <div class="img-wrapper">
-            <img src="images/portfolio/item-1.jpg" class="img-fluid" alt="this is a title">
+            <img src="images/portfolio/logo_new.png" class="img-fluid" alt="this is a title">
             <div class="overlay">
               <div class="buttons">
-                <a rel="gallery" class="fancybox" href="images/portfolio/item-1.jpg">Demo</a>
                 <a target="_blank" href="single-portfolio.html">Details</a>
               </div>
             </div>
@@ -100,11 +185,33 @@ Portfolio Section Start
           <figcaption>
             <h4>
               <a href="#">
-                Dew Drop
+                Homemade projects
               </a>
             </h4>
             <p>
-              Redesigne UI Concept
+            Obtaining relevant certificates and courses, participating in Kaggle competitions, and prototyping AI models
+            </p>
+          </figcaption>
+        </figure>
+      </div>
+      <div class="col-md-4 col-sm-6">
+        <figure class="wow fadeInLeft animated portfolio-item" data-wow-duration="500ms" data-wow-delay="0ms">
+          <div class="img-wrapper">
+            <img src="images/portfolio/tu_delft.png" class="img-fluid" alt="this is a title">
+            <div class="overlay">
+              <div class="buttons">
+                <a target="_blank" href="single-portfolio.html">Details</a>
+              </div>
+            </div>
+          </div>
+          <figcaption>
+            <h4>
+              <a href="#">
+                Master thesis 
+              </a>
+            </h4>
+            <p>
+            Creating an algorithm which is used for picking chess pieces with a robotic arm at the Technical University of Delft for the master Robotics
             </p>
           </figcaption>
         </figure>
@@ -112,10 +219,9 @@ Portfolio Section Start
       <div class="col-md-4 col-sm-6">
         <figure class="wow fadeInLeft animated" data-wow-duration="500ms" data-wow-delay="300ms">
           <div class="img-wrapper">
-            <img src="images/portfolio/item-2.jpg" class="img-fluid" alt="this is a title">
+            <img src="images/portfolio/tu_delft.png" class="img-fluid" alt="this is a title">
             <div class="overlay">
               <div class="buttons">
-                <a rel="gallery" class="fancybox" href="images/portfolio/item-2.jpg">Demo</a>
                 <a target="_blank" href="single-portfolio.html">Details</a>
               </div>
             </div>
@@ -123,11 +229,11 @@ Portfolio Section Start
           <figcaption>
             <h4>
               <a href="#">
-                Bottle Mockup
+                Literature Review
               </a>
             </h4>
             <p>
-              Lorem ipsum dolor sit.
+              Review on the topic of how depth information impacts 6D pose estimation algorithms at varying camera distances at the Technical University of Delft for the master Robotics
             </p>
           </figcaption>
         </figure>
@@ -135,10 +241,9 @@ Portfolio Section Start
       <div class="col-md-4 col-sm-6">
         <figure class="wow fadeInLeft animated" data-wow-duration="500ms" data-wow-delay="300ms">
           <div class="img-wrapper">
-            <img src="images/portfolio/item-3.jpg" class="img-fluid" alt="">
+            <img src="images/portfolio/logo_politie.png" class="img-fluid" alt="this is a title">
             <div class="overlay">
               <div class="buttons">
-                <a rel="gallery" class="fancybox" href="images/portfolio/item-3.jpg">Demo</a>
                 <a target="_blank" href="single-portfolio.html">Details</a>
               </div>
             </div>
@@ -146,11 +251,98 @@ Portfolio Section Start
           <figcaption>
             <h4>
               <a href="#">
-                Table Design
+                Data scientist
               </a>
             </h4>
             <p>
-              Lorem ipsum dolor sit amet.
+              Computer vision internship at TROI Amsterdam (Politie)
+            </p>
+          </figcaption>
+        </figure>
+      </div>
+      <div class="col-md-4 col-sm-6">
+        <figure class="wow fadeInLeft animated" data-wow-duration="500ms" data-wow-delay="300ms">
+          <div class="img-wrapper">
+            <img src="images/portfolio/tu_delft.png" class="img-fluid" alt="this is a title">
+            <div class="overlay">
+              <div class="buttons">
+                <a target="_blank" href="single-portfolio.html">Details</a>
+              </div>
+            </div>
+          </div>
+          <figcaption>
+            <h4>
+              <a href="#">
+                Reproducing a scientific paper 
+              </a>
+            </h4>
+            <p>
+              Reproducing the paper titled 'Time-Contrastive Networks: Self-Supervised Learning from Video' as part of the Seminar on Computer Vision by Deep Learning course at the Technical University of Delft.            </p>
+          </figcaption>
+        </figure>
+      </div>
+      <div class="col-md-4 col-sm-6">
+        <figure class="wow fadeInLeft animated" data-wow-duration="500ms" data-wow-delay="300ms">
+          <div class="img-wrapper">
+            <img src="images/portfolio/tu_delft.png" class="img-fluid" alt="this is a title">
+            <div class="overlay">
+              <div class="buttons">
+                <a target="_blank" href="single-portfolio.html">Details</a>
+              </div>
+            </div>
+          </div>
+          <figcaption>
+            <h4>
+              <a href="#">
+                Reproducing a scientific paper 
+              </a>
+            </h4>
+            <p>
+              Reproducing the paper titled 'Robust Visual SLAM Across Seasons' as part of the Deep Learning course at the Technical University of Delft.          
+            </p>
+          </figcaption>
+        </figure>
+      </div>
+      <div class="col-md-4 col-sm-6">
+        <figure class="wow fadeInLeft animated" data-wow-duration="500ms" data-wow-delay="300ms">
+          <div class="img-wrapper">
+            <img src="images/portfolio/bis-publishers_resize.png" class="img-fluid" alt="">
+            <div class="overlay">
+              <div class="buttons">
+                <a target="_blank" href="single-portfolio.html">Details</a>
+              </div>
+            </div>
+          </div>
+          <figcaption>
+            <h4>
+              <a href="#">
+                Data analyst
+              </a>
+            </h4>
+            <p>
+              Gaining insights from incoming data at BIS Publishers. Also enhancing stock management and predicting future book sales 
+            </p>
+          </figcaption>
+        </figure>
+      </div>
+      <div class="col-md-4 col-sm-6">
+        <figure class="wow fadeInLeft animated" data-wow-duration="500ms" data-wow-delay="300ms">
+          <div class="img-wrapper">
+            <img src="images/portfolio/hormann.jpg" class="img-fluid" alt="">
+            <div class="overlay">
+              <div class="buttons">
+                <a target="_blank" href="single-portfolio.html">Details</a>
+              </div>
+            </div>
+          </div>
+          <figcaption>
+            <h4>
+              <a href="#">
+                Research and Development Engineer
+              </a>
+            </h4>
+            <p>
+              Working at the MWB2 at Hörmann Alkmaar
             </p>
           </figcaption>
         </figure>
@@ -158,10 +350,9 @@ Portfolio Section Start
       <div class="col-md-4 col-sm-6">
         <figure class="wow fadeInLeft animated" data-wow-duration="500ms" data-wow-delay="600ms">
           <div class="img-wrapper">
-            <img src="images/portfolio/item-4.jpg" class="img-fluid" alt="">
+            <img src="images/portfolio/hva.png" class="img-fluid" alt="">
             <div class="overlay">
               <div class="buttons">
-                <a rel="gallery" class="fancybox" href="images/portfolio/item-4.jpg">Demo</a>
                 <a target="_blank" href="single-portfolio.html">Details</a>
               </div>
             </div>
@@ -169,11 +360,55 @@ Portfolio Section Start
           <figcaption>
             <h4>
               <a href="#">
-                Make Up elements
+                Mechanical Engineering
               </a>
             </h4>
             <p>
-              Lorem ipsum dolor.
+              Achieving a Bachelor's degree in Mechanical Engineering from HVA.
+            </p>
+          </figcaption>
+        </figure>
+      </div>
+      <div class="col-md-4 col-sm-6">
+        <figure class="wow fadeInLeft animated" data-wow-duration="500ms" data-wow-delay="600ms">
+          <div class="img-wrapper">
+            <img src="images/portfolio/holland_mechanics.jpg" class="img-fluid" alt="">
+            <div class="overlay">
+              <div class="buttons">
+                <a target="_blank" href="single-portfolio.html">Details</a>
+              </div>
+            </div>
+          </div>
+          <figcaption>
+            <h4>
+              <a href="#">
+              Internship Mechanical Engineering
+              </a>
+            </h4>
+            <p>
+              Enhanced 'The Pro Truer,' by improving existing functions and introducing new features at Holland Mechanics
+            </p>
+          </figcaption>
+        </figure>
+      </div>
+      <div class="col-md-4 col-sm-6">
+        <figure class="wow fadeInLeft animated" data-wow-duration="500ms" data-wow-delay="600ms">
+          <div class="img-wrapper">
+            <img src="images/portfolio/pneutec.png" class="img-fluid" alt="">
+            <div class="overlay">
+              <div class="buttons">
+                <a target="_blank" href="single-portfolio.html">Details</a>
+              </div>
+            </div>
+          </div>
+          <figcaption>
+            <h4>
+              <a href="#">
+              Internship Mechanical Engineering
+              </a>
+            </h4>
+            <p>
+              Designed tools to improve processes in the cleanroom at Pneutec in Hoofddorp
             </p>
           </figcaption>
         </figure>
@@ -181,10 +416,9 @@ Portfolio Section Start
       <div class="col-md-4 col-sm-6">
         <figure class="wow fadeInLeft animated" data-wow-duration="500ms" data-wow-delay="900ms">
           <div class="img-wrapper">
-            <img src="images/portfolio/item-5.jpg" class="img-fluid" alt="">
+            <img src="images/portfolio/intratuin_beemster.png" class="img-fluid" alt="">
             <div class="overlay">
               <div class="buttons">
-                <a rel="gallery" class="fancybox" href="images/portfolio/item-5.jpg">Demo</a>
                 <a target="_blank" href="single-portfolio.html">Details</a>
               </div>
             </div>
@@ -192,34 +426,11 @@ Portfolio Section Start
           <figcaption>
             <h4>
               <a href="#">
-                Shoping Bag Concept
+                Garden center employee
               </a>
             </h4>
             <p>
-              Lorem ipsum dolor.
-            </p>
-          </figcaption>
-        </figure>
-      </div>
-      <div class="col-md-4 col-sm-6">
-        <figure class="wow fadeInLeft animated" data-wow-duration="500ms" data-wow-delay="1200ms">
-          <div class="img-wrapper">
-            <img src="images/portfolio/item-6.jpg" class="img-fluid" alt="">
-            <div class="overlay">
-              <div class="buttons">
-                <a rel="gallery" class="fancybox" href="images/portfolio/item-6.jpg">Demo</a>
-                <a target="_blank" href="single-portfolio.html">Details</a>
-              </div>
-            </div>
-          </div>
-          <figcaption>
-            <h4>
-              <a href="#">
-                Caramel Bottle
-              </a>
-            </h4>
-            <p>
-              Lorem ipsum dolor.
+              Helping within the family company at Intratuin Beemster
             </p>
           </figcaption>
         </figure>
@@ -234,10 +445,9 @@ Portfolio Section Start
 <section id="feature">
   <div class="container">
     <div class="section-heading">
-      <h1 class="title wow fadeInDown" data-wow-delay=".3s">Offer From Me</h1>
+      <h1 class="title wow fadeInDown" data-wow-delay=".3s">What do i offer?</h1>
       <p class="wow fadeInDown" data-wow-delay=".5s">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed,<br> quasi dolores numquam dolor vero ex, tempora
-        commodi repellendus quod laborum.
+        Already interested? See what I can offer to your company!
       </p>
     </div>
     <div class="row">
@@ -245,12 +455,12 @@ Portfolio Section Start
         <div class="media wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="300ms">
           <div class="media-left">
             <div class="icon">
-              <i class="ion-ios-flask-outline"></i>
+              <img src="images/icons/help-outline.svg" alt="Accessibility Icon" style="width: 60%;">
             </div>
           </div>
           <div class="media-body">
-            <h4 class="media-heading">Media heading</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, sint.</p>
+            <h4 class="media-heading">Artificial Intelligence knowledge</h4>
+            <p>Interested in exploring how Artificial Intelligence can be integrated into your company's operations? Let's have a discussion about it!</p>
           </div>
         </div>
       </div>
@@ -258,12 +468,12 @@ Portfolio Section Start
         <div class="media wow fadeInDown animated" data-wow-duration="500ms" data-wow-delay="600ms">
           <div class="media-left">
             <div class="icon">
-              <i class="ion-ios-lightbulb-outline"></i>
+              <img src="images/icons/accessibility-outline.svg" alt="Accessibility Icon" style="width: 60%;">
             </div>
           </div>
           <div class="media-body">
-            <h4 class="media-heading">Well documented.</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, sint.</p>
+            <h4 class="media-heading">Flexibility</h4>
+            <p>In the need of some extra power on the work floor? Send me a message!</p>
           </div>
         </div>
       </div>
@@ -271,51 +481,13 @@ Portfolio Section Start
         <div class="media wow fadeInDown animated" data-wow-duration="500ms" data-wow-delay="900ms">
           <div class="media-left">
             <div class="icon">
-              <i class="ion-ios-lightbulb-outline"></i>
+              <img src="images/icons/barbell-outline.svg" alt="Accessibility Icon" style="width: 60%;">
             </div>
           </div>
           <div class="media-body">
-            <h4 class="media-heading">Well documented.</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, sint.</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-6 col-lg-4">
-        <div class="media wow fadeInDown animated" data-wow-duration="500ms" data-wow-delay="1200ms">
-          <div class="media-left">
-            <div class="icon">
-              <i class="ion-ios-americanfootball-outline"></i>
-            </div>
-          </div>
-          <div class="media-body">
-            <h4 class="media-heading">Free updates</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, sint.</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-6 col-lg-4">
-        <div class="media wow fadeInDown animated" data-wow-duration="500ms" data-wow-delay="1500ms">
-          <div class="media-left">
-            <div class="icon">
-              <i class="ion-ios-keypad-outline"></i>
-            </div>
-          </div>
-          <div class="media-body">
-            <h4 class="media-heading">Solid Support</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, sint.</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-6 col-lg-4">
-        <div class="media wow fadeInDown animated" data-wow-duration="500ms" data-wow-delay="1800ms">
-          <div class="media-left">
-            <div class="icon">
-              <i class="ion-ios-barcode-outline"></i>
-            </div>
-          </div>
-          <div class="media-body">
-            <h4 class="media-heading">Simple Installation</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, sint.</p>
+            <h4 class="media-heading">Enhanced Computing Resources</h4>
+          <p> Interested in diving into machine learning but lacking the necessary computational power? 
+              No problem! Equipped with my high-performance workstation with two NVIDIA RTX 3090 GPUs, we can make substantial progress!</p>
           </div>
         </div>
       </div>
@@ -324,8 +496,88 @@ Portfolio Section Start
 </section> <!-- /#feature -->
 }
 
-@@include('blocks/call-to-action.htm')
+            <!--
+            ==================================================
+            Call To Action Section Start
+            ================================================== -->
+            <section id="call-to-action">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="block">
+                                <h2 class="title wow fadeInDown" data-wow-delay=".3s" data-wow-duration="500ms">SO WHAT YOU THINK ?</h1>
+                                <p class="wow fadeInDown" data-wow-delay=".5s" data-wow-duration="500ms">
+                                  Interested in working together?<br>
+                                  Reach out to me via LinkedIn, email, or the contact form below!
+                                </p>
+                                <a href="contact.html" class="btn btn-default btn-contact wow fadeInDown" data-wow-delay=".7s" data-wow-duration="500ms">Contact With Me</a>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </section>
 
-@@include('blocks/footer.htm')
+            <!--
+            ==================================================
+            Footer Section Start
+            ================================================== -->
+            <footer id="footer">
+                <div class="container">
+                    <div class="row content-justify-between">
+                        <div class="col-md-8 col-12 text-center text-lg-left text-md-left">
+                            <p class="copyright">Copyright: Design and Developed by <a href="http://www.Themefisher.com" target="_blank">Themefisher</a>. <br> 
+                                Get More Bootstrap Template From Our 
+                                <a href="https://themefisher.com/free-bootstrap-templates/" target="_blank">Store</a>
+                            </p>
+                        </div>
+                        <div class="col-md-4 col-12">
+                            <!-- Social Media -->
+                            <ul class="social text-center text-md-right text-lg-right">
+                                <li>
+                                    <a href="http://wwww.fb.com/themefisher" class="Facebook">
+                                        <i class="ion-social-facebook"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="http://wwww.twitter.com/themefisher" class="Twitter">
+                                        <i class="ion-social-twitter"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="Linkedin">
+                                        <i class="ion-social-linkedin"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="http://wwww.fb.com/themefisher" class="Google Plus">
+                                        <i class="ion-social-googleplus"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </footer> <!-- /#footer -->
 
-@@include('footer.htm')
+	<!-- Template Javascript Files
+	================================================== -->
+	<!-- jquery -->
+	<script src="plugins/jQurey/jquery.min.js"></script>
+	<!-- Form Validation -->
+    <script src="plugins/form-validation/jquery.form.js"></script> 
+    <script src="plugins/form-validation/jquery.validate.min.js"></script>
+	<!-- slick slider -->
+	<script src="plugins/slick/slick.min.js"></script>
+	<!-- bootstrap js -->
+	<script src="plugins/bootstrap/bootstrap.min.js"></script>
+	<!-- wow js -->
+	<script src="plugins/wow-js/wow.min.js"></script>
+	<!-- slider js -->
+	<script src="plugins/slider/slider.js"></script>
+	<!-- Fancybox -->
+	<script src="plugins/facncybox/jquery.fancybox.js"></script>
+	<!-- template main js -->
+	<script src="js/main.js"></script>
+ 	</body>
+</html>
