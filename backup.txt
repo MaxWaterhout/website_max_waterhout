@@ -7,14 +7,6 @@
  // GITHUB: https://github.com/themefisher/
 -->
 
-
-<!--
- // WEBSITE: https://themefisher.com
- // TWITTER: https://twitter.com/themefisher
- // FACEBOOK: https://www.facebook.com/themefisher
- // GITHUB: https://github.com/themefisher/
--->
-
 <html class="no-js">
     <head>
         <!-- Basic Page Needs
@@ -177,7 +169,7 @@ About Section Start
             My goal is to continually expand my knowledge and expertise in MLOps, having complete knowledge of an efficient full machine learning pipeline. 
           </p>
           <p>
-            As a 25 years old I am currently living in Purmerend with my girlfriend. Apart from my professional pursuits, I have a passion for team sports. 
+            I am 25 years old and currently living in Purmerend with my girlfriend. Apart from my professional pursuits, I have a passion for team sports. 
             Where I actively participate in korfbal at <a href="https://kvbep.nl/">www.kvbep.nl</a> and enjoy spectating basketball and football matches in my free time.     
           </p>
         </div>
@@ -185,7 +177,7 @@ About Section Start
       </div>
       <div class="col-md-6 col-sm-6">
         <div class="block wow fadeInRight" data-wow-delay=".3s" data-wow-duration="500ms">
-          <img src="images/about/selfie.jpeg" alt="" style="width: 70%; height: 70%;">
+          <img src="images/about/selfie.jpeg" alt="" style="width: 50%; height: 50%;">
         </div>
       </div>
     </div>
@@ -209,7 +201,7 @@ Portfolio Section Start
       <div class="col-md-4 col-sm-6">
         <figure class="wow fadeInLeft animated portfolio-item" data-wow-duration="500ms" data-wow-delay="0ms">
           <div class="img-wrapper">
-            <img src="images/portfolio/chess.jpg" class="img-fluid" alt="this is a title">
+            <img src="images/portfolio/item-1.jpg" class="img-fluid" alt="this is a title">
             <div class="overlay">
               <div class="buttons">
                 <a target="_blank" href="single-portfolio.html">Details</a>
@@ -219,11 +211,11 @@ Portfolio Section Start
           <figcaption>
             <h4>
               <a href="#">
-                Master thesis
+                Dew Drop
               </a>
             </h4>
             <p>
-            Creating an algorithm which is used for picking chess pieces with a robotic arm
+              Redesigne UI Concept
             </p>
           </figcaption>
         </figure>
@@ -231,7 +223,7 @@ Portfolio Section Start
       <div class="col-md-4 col-sm-6">
         <figure class="wow fadeInLeft animated" data-wow-duration="500ms" data-wow-delay="300ms">
           <div class="img-wrapper">
-            <img src="images/portfolio/logo_politie.png" class="img-fluid" alt="this is a title">
+            <img src="images/portfolio/item-2.jpg" class="img-fluid" alt="this is a title">
             <div class="overlay">
               <div class="buttons">
                 <a target="_blank" href="single-portfolio.html">Details</a>
@@ -241,11 +233,11 @@ Portfolio Section Start
           <figcaption>
             <h4>
               <a href="#">
-                TROI (Politie)
+                Bottle Mockup
               </a>
             </h4>
             <p>
-              Computer vision internship at TROI 
+              Lorem ipsum dolor sit.
             </p>
           </figcaption>
         </figure>
@@ -253,7 +245,7 @@ Portfolio Section Start
       <div class="col-md-4 col-sm-6">
         <figure class="wow fadeInLeft animated" data-wow-duration="500ms" data-wow-delay="300ms">
           <div class="img-wrapper">
-            <img src="images/portfolio/hormann.jpg" class="img-fluid" alt="">
+            <img src="images/portfolio/item-3.jpg" class="img-fluid" alt="">
             <div class="overlay">
               <div class="buttons">
                 <a target="_blank" href="single-portfolio.html">Details</a>
