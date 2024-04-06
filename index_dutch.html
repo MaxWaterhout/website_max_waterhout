@@ -24,7 +24,7 @@
         <link rel="icon" href="favicon.ico">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/5.0.1/css/ionicons.min.css" integrity="sha512-<hash>" crossorigin="anonymous" />
 
-        <title>Timer Agency Template</title>
+        <title>Max AI Solutions</title>
         <meta name="description" content="">
         <meta name="keywords" content="">
         <meta name="author" content="">
@@ -62,37 +62,52 @@
         ==================================================
         Header Section Start
         ================================================== -->
-<section class="top-bar animated-header">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                    <a class="navbar-brand" href="index.html">
-                        <img src="images/logo.png" alt="logo">
-                    </a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
+<style>
+  /* Custom CSS for positioning dropdown beside the logo on smaller screens */
+  @media (max-width: 767.98px) {
+      .logo-container {
+          display: flex;
+          align-items: center;
+      }
 
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav ml-auto">
-                            <li class="nav-item">
-                                <a class="nav-link" href="index.html">Home
-                                    <span class="sr-only">(current)</span>
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="contact.html">Contact</a>
-                            </li>
-                        <a href="index.html"><img src="images/flag_uk.png" alt="English" style="width: 20px; height: 15px;">&nbsp;&nbsp;&nbsp;&nbsp;      </a>
-                        <a href="index_dutch.html"><img src="images/dutch_flag.jpg" alt="Dutch" style="width: 20px; height: 15px;"> </a>
-                        </ul>
-                    </div>
-                </nav>
-            </div>
-        </div>
-    </div>
+      .navbar-brand {
+          margin-right: 10px; /* Adjust margin as needed */
+      }
+  }
+</style>
+<section class="top-bar animated-header">
+  <div class="container">
+      <div class="row">
+          <div class="col-md-12">
+              <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                  <div class="logo-container">
+                      <a class="navbar-brand" href="index.html">
+                          <img src="images/logo.png" alt="logo" style="width: 30%; height: 30%;">
+                      </a>
+                      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                          aria-expanded="false" aria-label="Toggle navigation">
+                          <span class="navbar-toggler-icon"></span>
+                      </button>
+                  </div>
+
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                      <ul class="navbar-nav ml-auto">
+                          <li class="nav-item">
+                              <a class="nav-link" href="index.html">Home
+                                  <span class="sr-only">(current)</span>
+                              </a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link" href="contact_dutch.html">Contact</a>
+                          </li>
+                          <a href="index.html"><img src="images/flag_uk.png" alt="English" style="width: 20px; height: 15px;">&nbsp;&nbsp;&nbsp;&nbsp;      </a>
+                          <a href="index_dutch.html"><img src="images/dutch_flag.jpg" alt="Dutch" style="width: 20px; height: 15px;"> </a>
+                      </ul>
+                  </div>
+              </nav>
+          </div>
+      </div>
+  </div>
 </section>
 
 <!--
@@ -108,25 +123,22 @@ Slider Section Start
           <!-- Slider -->
           <section class="cd-intro">
             <h1 class="wow fadeInUp animated cd-headline slide" data-wow-delay=".4s">
-              <span>HI, MY NAME IS MAX WATERHOUT &amp; I AM A</span><br>
+              <span>HALLO, MIJN NAAM IS MAX WATERHOUT &amp; IK BEN EEN </span><br>
               <span class="cd-words-wrapper">
                 <b class="is-visible">DATA SCIENTIST</b>
-                <b>MACHINE LEARNING ENGINEER</b>
+                <b>ML ENGINEER</b>
                 <b>DATA ANALYST</b>
                 <b>DATA ENGINEER</b>
-                <b>ARTIFICIAL INTELLIGENCE ENGINEER</b>
+                <b>AI ENGINEER</b>
               </span>
             </h1>
           </section> <!-- cd-intro -->
           <!-- /.slider -->
           <h2 class="wow fadeInUp animated" data-wow-delay=".6s" style="font-weight: bold;">
-            As a robotics engineer, I am interested in mechanical engineering and data science, with a specialization in machine learning. 
-            This site serves as a portfolio of my experience and work, highlighting projects that demonstrate my expertise, dedication and enthusiasm for mastering this technology. 
-            It is also possible to download my personal curriculum vitae with the button below!
-          </h2>
-          <a class="btn-lines dark light wow fadeInUp animated btn btn-default btn-green hvr-bounce-to-right"
-            data-wow-delay=".9s" href="https://mw-cv.tiiny.site" target="_blank">Download curriculum vitae</a>
-        </div>
+            Als robotica-ingenieur beschik ik over kennis van werktuigbouwkunde, maar mijn interesse ligt voornamelijk bij datawetenschap, met een bijzondere specialisatie en liefde voor machine learning.
+            Deze website dient als een portfolio van mijn ervaring en werk, waarbij projecten worden belicht die mijn expertise, toewijding en enthousiasme voor deze technologie aantonen.
+          
+          </div>
       </div>
     </div>
   </div>
@@ -137,24 +149,28 @@ Slider Section Start
 ==================================================
 About Section Start
 ================================================== -->
-<section id="about">
+<section id="about" style="margin-top: -50px;">
   <div class="container">
     <div class="row">
       <div class="col-md-6 col-sm-6">
         <div class="block wow fadeInLeft" data-wow-delay=".3s" data-wow-duration="500ms">
           <h2>
-            ABOUT ME
+            OVER MIJ
           </h2>
           <p>
-            As a Robotics engineer I am specialized in Machine Learning with interests in mechanical engineering. 
-            After finishing my master at the University of Delft I was searching for the right path to take. 
-            After working some months, I came to realize that leveraging Artificial Intelligence to solve real-world problems at different companies was where my heart truly lies.
-            I thrive in a dynamic and fast-paced flat organization that fosters a culture of innovation and encourages collaboration and helping each other. 
-            My goal is to continually expand my knowledge and expertise in MLOps, having complete knowledge of an efficient full machine learning pipeline. 
-          </p>
+            Na het behalen van mijn diploma werktuigbouwkunde in 2019, ging ik aan de slag als Research and Development ingenieur. 
+            Hoewel het een leuk jaar was en ik veel heb geleerd, merkte ik dat ik verlangde naar diepere inzichten in softwareontwikkeling en geavanceerde technologieën.
+            Gemotiveerd hierdoor volgde ik een pre-master en masteropleiding in Robotica aan de Technische Universiteit in Delft.
+            Tijdens het eerste jaar van mijn Robotica-studies ontwikkelde ik een passie voor Kunstmatige Intelligentie. 
+            Daarom volgde ik verschillende cursussen en projecten op dit gebied om mijn expertise te vergroten.
+
+            Na het behalen van mijn masterdiploma aan de Universiteit van Delft, bevond ik mezelf op een kruispunt, onzeker over welke functie of welk bedrijf ik moest nastreven. 
+            Na een paar maanden te hebben gewerkt, besefte ik dat mijn ware roeping ligt in het gebruik van Kunstmatige Intelligentie om verschillende projecten voor verschillende bedrijven aan te pakken.
+            
+            Mijn doel is om voortdurend mijn kennis en expertise in AI uit te breiden en volledige kennis te hebben van een efficiënte volledige machine learning-pijplijn (MLOps) en om deze expertise te benutten om verschillende bedrijven te helpen.          </p>
           <p>
-            As a 25 years old I am currently living in Purmerend with my girlfriend. Apart from my professional pursuits, I have a passion for team sports. 
-            Where I actively participate in korfbal at <a href="https://kvbep.nl/">korfbalvereniging BEP</a> and enjoy spectating basketball and football matches in my free time.     
+            Op 25-jarige leeftijd woon ik momenteel in Purmerend met mijn vriendin. Naast mijn professionele bezigheden heb ik een passie voor teamsporten. 
+            Ik neem actief deel aan korfbal bij korfbalvereniging BEP en geniet in mijn vrije tijd van het kijken naar basketbal- en voetbalwedstrijden.   
           </p>
         </div>
 
@@ -173,34 +189,33 @@ About Section Start
 ==================================================
 Portfolio Section Start
 ================================================== -->
-<section id="works" class="works">
+<section id="works" class="works"style="margin-top: -100px;">
   <div class="container">
     <div class="section-heading">
-      <h1 class="title wow fadeInDown" data-wow-delay=".3s">Experiences and projects</h1>
+      <h1 class="title wow fadeInDown" data-wow-delay=".3s">Ervaringen en projecten</h1>
       <p class="wow fadeInDown" data-wow-delay=".5s">
-        These experiences complement my professional journey!
+        Deze ervaringen vullen mijn professionele reis aan!
       </p>
     </div>
     <div class="row">
       <div class="col-md-4 col-sm-6">
         <figure class="wow fadeInLeft animated portfolio-item" data-wow-duration="500ms" data-wow-delay="0ms">
           <div class="img-wrapper">
-            <img src="images/portfolio/logo_new.png" class="img-fluid" alt="this is a title">
+            <img src="images/portfolio/logo.png" class="img-fluid" alt="this is a title">
             <div class="overlay">
               <div class="buttons">
-                <a target="_blank" href="single-portfolio.html">Details</a>
+                <a target="_blank" href="dutch/homemade.html">Details</a>
               </div>
             </div>
           </div>
           <figcaption>
             <h4>
               <a href="#">
-                Homemade projects
+                Persoonlijke projecten portfolio
               </a>
             </h4>
             <p>
-            Obtaining relevant certificates and courses, participating in Kaggle competitions, and prototyping AI models
-            </p>
+              Het behalen van relevante certificaten en cursussen, deelnemen aan Kaggle-competities, het prototypen van AI-modellen en het bouwen van deze website.            </p>
           </figcaption>
         </figure>
       </div>
@@ -210,7 +225,7 @@ Portfolio Section Start
             <img src="images/portfolio/tu_delft.png" class="img-fluid" alt="this is a title">
             <div class="overlay">
               <div class="buttons">
-                <a target="_blank" href="single-portfolio.html">Details</a>
+                <a target="_blank" href="dutch/thesis.html">Details</a>
               </div>
             </div>
           </div>
@@ -221,8 +236,7 @@ Portfolio Section Start
               </a>
             </h4>
             <p>
-            Creating an algorithm which is used for picking chess pieces with a robotic arm at the Technical University of Delft for the master Robotics
-            </p>
+              Het creëren van een algoritme dat wordt gebruikt om schaakstukken op te pakken met een robotarm aan de Technische Universiteit Delft voor de masteropleiding Robotics.            </p>
           </figcaption>
         </figure>
       </div>
@@ -232,18 +246,18 @@ Portfolio Section Start
             <img src="images/portfolio/tu_delft.png" class="img-fluid" alt="this is a title">
             <div class="overlay">
               <div class="buttons">
-                <a target="_blank" href="single-portfolio.html">Details</a>
+                <a target="_blank" href="dutch/projects.html">Details</a>
               </div>
             </div>
           </div>
           <figcaption>
             <h4>
               <a href="#">
-                Literature Review
+                Kunstmatige Intelligentie projecten
               </a>
             </h4>
             <p>
-              Review on the topic of how depth information impacts 6D pose estimation algorithms at varying camera distances at the Technical University of Delft for the master Robotics
+              Betrokken geweest bij verschillende machine learning / deep learning projecten gedurende mijn tijd aan de Technische Universiteit Delft.
             </p>
           </figcaption>
         </figure>
@@ -254,61 +268,18 @@ Portfolio Section Start
             <img src="images/portfolio/logo_politie.png" class="img-fluid" alt="this is a title">
             <div class="overlay">
               <div class="buttons">
-                <a target="_blank" href="single-portfolio.html">Details</a>
+                <a target="_blank" href="dutch/politie.html">Details</a>
               </div>
             </div>
           </div>
           <figcaption>
             <h4>
               <a href="#">
-                Data scientist
+              Data scientist
               </a>
             </h4>
             <p>
-              Computer vision internship at TROI Amsterdam (Politie)
-            </p>
-          </figcaption>
-        </figure>
-      </div>
-      <div class="col-md-4 col-sm-6">
-        <figure class="wow fadeInLeft animated" data-wow-duration="500ms" data-wow-delay="300ms">
-          <div class="img-wrapper">
-            <img src="images/portfolio/tu_delft.png" class="img-fluid" alt="this is a title">
-            <div class="overlay">
-              <div class="buttons">
-                <a target="_blank" href="single-portfolio.html">Details</a>
-              </div>
-            </div>
-          </div>
-          <figcaption>
-            <h4>
-              <a href="#">
-                Reproducing a scientific paper 
-              </a>
-            </h4>
-            <p>
-              Reproducing the paper titled 'Time-Contrastive Networks: Self-Supervised Learning from Video' as part of the Seminar on Computer Vision by Deep Learning course at the Technical University of Delft.            </p>
-          </figcaption>
-        </figure>
-      </div>
-      <div class="col-md-4 col-sm-6">
-        <figure class="wow fadeInLeft animated" data-wow-duration="500ms" data-wow-delay="300ms">
-          <div class="img-wrapper">
-            <img src="images/portfolio/tu_delft.png" class="img-fluid" alt="this is a title">
-            <div class="overlay">
-              <div class="buttons">
-                <a target="_blank" href="single-portfolio.html">Details</a>
-              </div>
-            </div>
-          </div>
-          <figcaption>
-            <h4>
-              <a href="#">
-                Reproducing a scientific paper 
-              </a>
-            </h4>
-            <p>
-              Reproducing the paper titled 'Robust Visual SLAM Across Seasons' as part of the Deep Learning course at the Technical University of Delft.          
+              Computer vision stage bij TROI Amsterdam (Politie)
             </p>
           </figcaption>
         </figure>
@@ -319,18 +290,18 @@ Portfolio Section Start
             <img src="images/portfolio/bis-publishers_resize.png" class="img-fluid" alt="">
             <div class="overlay">
               <div class="buttons">
-                <a target="_blank" href="single-portfolio.html">Details</a>
+                <a target="_blank" href="dutch/bis_publishers.html">Details</a>
               </div>
             </div>
           </div>
           <figcaption>
             <h4>
               <a href="#">
-                Data analyst
+                Data analist
               </a>
             </h4>
             <p>
-              Gaining insights from incoming data at BIS Publishers. Also enhancing stock management and predicting future book sales 
+              Inzichten verkrijgen uit binnenkomende gegevens bij BIS Publishers.
             </p>
           </figcaption>
         </figure>
@@ -341,18 +312,18 @@ Portfolio Section Start
             <img src="images/portfolio/hormann.jpg" class="img-fluid" alt="">
             <div class="overlay">
               <div class="buttons">
-                <a target="_blank" href="single-portfolio.html">Details</a>
+                <a target="_blank" href="dutch/hormann.html">Details</a>
               </div>
             </div>
           </div>
           <figcaption>
             <h4>
               <a href="#">
-                Research and Development Engineer
+                Research and Development ingenieur
               </a>
             </h4>
             <p>
-              Working at the MWB2 at Hörmann Alkmaar
+              Werken aan de MWB2 bij Hörmann Alkmaar
             </p>
           </figcaption>
         </figure>
@@ -361,20 +332,15 @@ Portfolio Section Start
         <figure class="wow fadeInLeft animated" data-wow-duration="500ms" data-wow-delay="600ms">
           <div class="img-wrapper">
             <img src="images/portfolio/hva.png" class="img-fluid" alt="">
-            <div class="overlay">
-              <div class="buttons">
-                <a target="_blank" href="single-portfolio.html">Details</a>
-              </div>
-            </div>
           </div>
           <figcaption>
             <h4>
               <a href="#">
-                Mechanical Engineering
+                Werktuigbouwkunde
               </a>
             </h4>
             <p>
-              Achieving a Bachelor's degree in Mechanical Engineering from HVA.
+              Het behalen van een bachelor's degree in Werktuigbouwkunde aan de HVA.
             </p>
           </figcaption>
         </figure>
@@ -383,21 +349,15 @@ Portfolio Section Start
         <figure class="wow fadeInLeft animated" data-wow-duration="500ms" data-wow-delay="600ms">
           <div class="img-wrapper">
             <img src="images/portfolio/holland_mechanics.jpg" class="img-fluid" alt="">
-            <div class="overlay">
-              <div class="buttons">
-                <a target="_blank" href="single-portfolio.html">Details</a>
-              </div>
-            </div>
           </div>
           <figcaption>
             <h4>
               <a href="#">
-              Internship Mechanical Engineering
+              Stage werktuigbouwkunde
               </a>
             </h4>
             <p>
-              Enhanced 'The Pro Truer,' by improving existing functions and introducing new features at Holland Mechanics
-            </p>
+              Verbeterde 'The Pro Truer' door bestaande functies te verbeteren en nieuwe functies te introduceren bij Holland Mechanics.            </p>
           </figcaption>
         </figure>
       </div>
@@ -405,20 +365,15 @@ Portfolio Section Start
         <figure class="wow fadeInLeft animated" data-wow-duration="500ms" data-wow-delay="600ms">
           <div class="img-wrapper">
             <img src="images/portfolio/pneutec.png" class="img-fluid" alt="">
-            <div class="overlay">
-              <div class="buttons">
-                <a target="_blank" href="single-portfolio.html">Details</a>
-              </div>
-            </div>
           </div>
           <figcaption>
             <h4>
               <a href="#">
-              Internship Mechanical Engineering
+              Stage Werktuigbouwkunde
               </a>
             </h4>
             <p>
-              Designed tools to improve processes in the cleanroom at Pneutec in Hoofddorp
+              Ontwierp gereedschappen om processen in de cleanroom te verbeteren bij Pneutec in Hoofddorp.
             </p>
           </figcaption>
         </figure>
@@ -427,20 +382,15 @@ Portfolio Section Start
         <figure class="wow fadeInLeft animated" data-wow-duration="500ms" data-wow-delay="900ms">
           <div class="img-wrapper">
             <img src="images/portfolio/intratuin_beemster.png" class="img-fluid" alt="">
-            <div class="overlay">
-              <div class="buttons">
-                <a target="_blank" href="single-portfolio.html">Details</a>
-              </div>
-            </div>
           </div>
           <figcaption>
             <h4>
               <a href="#">
-                Garden center employee
+                Werknemer bij het tuincentrum
               </a>
             </h4>
             <p>
-              Helping within the family company at Intratuin Beemster
+              Helpen binnen het familiebedrijf bij Intratuin Beemster.
             </p>
           </figcaption>
         </figure>
@@ -456,9 +406,9 @@ Portfolio Section Start
 <section id="feature" style="margin-top: -100px;">
   <div class="container">
     <div class="section-heading">
-      <h1 class="title wow fadeInDown" data-wow-delay=".3s">What do i offer?</h1>
+      <h1 class="title wow fadeInDown" data-wow-delay=".3s">Wat bied ik aan?</h1>
       <p class="wow fadeInDown" data-wow-delay=".3s">
-        Already interested? See what I can offer to your company!
+        Al geïnteresseerd? Bekijk wat ik aan uw bedrijf kan bieden!
       </p>
     </div>
     <div class="row">
@@ -466,13 +416,13 @@ Portfolio Section Start
         <div class="media wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="300ms">
           <div class="media-left">
             <div class="icon">
-              <img src="images/icons/help-outline.svg" alt="Accessibility Icon" style="width: 60%;">
+              <img src="images/icons/brain.svg" alt="Accessibility Icon" style="width: 100%;">
             </div>
           </div>
           <div class="media-body">
-            <h4 class="media-heading">Artificial Intelligence knowledge</h4>
-            <p>Interested in exploring how Artificial Intelligence can be integrated into your company's operations? Let's have a discussion about it!</p>
-          </div>
+
+            <h4 class="media-heading">Actuele kennis van Kunstmatige Intelligentie</h4>
+            <p>Geïnteresseerd in het verkennen van hoe Kunstmatige Intelligentie geïntegreerd kan worden in de activiteiten van uw bedrijf? Laten we erover praten!</p>          </div>
         </div>
       </div>
       <div class="col-sm-6 col-lg-4">
@@ -483,9 +433,9 @@ Portfolio Section Start
             </div>
           </div>
           <div class="media-body">
-            <h4 class="media-heading">Flexibility</h4>
-            <p>In the need of some extra power on the work floor? Send me a message!</p>
-          </div>
+            <h4 class="media-heading">Flexibiliteit</h4>
+
+            <p>Heeft u behoefte aan wat extra kracht op de werkvloer? Stuur me een bericht!</p>          </div>
         </div>
       </div>
       <div class="col-sm-6 col-lg-4">
@@ -496,16 +446,16 @@ Portfolio Section Start
             </div>
           </div>
           <div class="media-body">
-            <h4 class="media-heading">Enhanced Computing Resources</h4>
-          <p> Interested in diving into machine learning but lacking the necessary computational power? 
-              No problem! Equipped with my high-performance workstation with two NVIDIA RTX 3090 GPUs, we can make substantial progress!</p>
+            <h4 class="media-heading"> Verbeterde Rekenbronnen (Binnenkort beschikbaar!)</h4>
+            <!-- 
+          <p> Geïnteresseerd om je te verdiepen in machine learning maar heb je niet genoeg rekenkracht? Geen probleem! Uitgerust met mijn high-performance workstation met twee NVIDIA RTX 3090 GPU's, kunnen we aanzienlijke vooruitgang boeken!</p>
+            -->
           </div>
         </div>
       </div>
     </div>
   </div>
 </section> <!-- /#feature -->
-}
 
             <!--
             ==================================================
@@ -516,12 +466,12 @@ Portfolio Section Start
                     <div class="row">
                         <div class="col-md-12">
                             <div class="block">
-                                <h2 class="title wow fadeInDown" data-wow-delay=".3s" data-wow-duration="500ms">SO WHAT YOU THINK ?</h1>
-                                <p class="wow fadeInDown" data-wow-delay=".5s" data-wow-duration="500ms">
-                                  Interested in working together?<br>
-                                  Reach out to me via LinkedIn, email, phone, or find my contact details below!
-                                </p>
-                                <a href="contact.html" class="btn btn-default btn-contact wow fadeInDown" data-wow-delay=".7s" data-wow-duration="500ms">Contact With Me</a>
+                              <h2 class="title wow fadeInDown" data-wow-delay=".3s" data-wow-duration="500ms">WAT DENK JE EROVER?</h1>
+                              <p class="wow fadeInDown" data-wow-delay=".5s" data-wow-duration="500ms">
+                                Geïnteresseerd om samen te werken?<br>
+                                Neem contact met me op via Whatsapp, LinkedIn, e-mail, telefoon, of vind andere contactgegevens hieronder!
+                            </p>
+                                <a href="contact_dutch.html" class="btn btn-default btn-contact wow fadeInDown" data-wow-delay=".7s" data-wow-duration="500ms">Contact mij!</a>
                             </div>
                         </div>
                         

@@ -62,37 +62,52 @@
         ==================================================
         Header Section Start
         ================================================== -->
-<section class="top-bar animated-header">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                    <a class="navbar-brand" href="index.html">
-                        <img src="images/logo.png" alt="logo" style="width: 30%; height: 30%;">
-                    </a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
+<style>
+  /* Custom CSS for positioning dropdown beside the logo on smaller screens */
+  @media (max-width: 767.98px) {
+      .logo-container {
+          display: flex;
+          align-items: center;
+      }
 
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav ml-auto">
-                            <li class="nav-item">
-                                <a class="nav-link" href="index.html">Home
-                                    <span class="sr-only">(current)</span>
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="contact.html">Contact</a>
-                            </li>
-                        <a href="index.html"><img src="images/flag_uk.png" alt="English" style="width: 20px; height: 15px;">&nbsp;&nbsp;&nbsp;&nbsp;      </a>
-                        <a href="index_dutch.html"><img src="images/dutch_flag.jpg" alt="Dutch" style="width: 20px; height: 15px;"> </a>
-                        </ul>
-                    </div>
-                </nav>
-            </div>
-        </div>
-    </div>
+      .navbar-brand {
+          margin-right: 10px; /* Adjust margin as needed */
+      }
+  }
+</style>
+<section class="top-bar animated-header">
+  <div class="container">
+      <div class="row">
+          <div class="col-md-12">
+              <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                  <div class="logo-container">
+                      <a class="navbar-brand" href="index.html">
+                          <img src="images/logo.png" alt="logo" style="width: 30%; height: 30%;">
+                      </a>
+                      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                          aria-expanded="false" aria-label="Toggle navigation">
+                          <span class="navbar-toggler-icon"></span>
+                      </button>
+                  </div>
+
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                      <ul class="navbar-nav ml-auto">
+                          <li class="nav-item">
+                              <a class="nav-link" href="index.html">Home
+                                  <span class="sr-only">(current)</span>
+                              </a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link" href="contact.html">Contact</a>
+                          </li>
+                          <a href="index.html"><img src="images/flag_uk.png" alt="English" style="width: 20px; height: 15px;">&nbsp;&nbsp;&nbsp;&nbsp;      </a>
+                          <a href="index_dutch.html"><img src="images/dutch_flag.jpg" alt="Dutch" style="width: 20px; height: 15px;"> </a>
+                      </ul>
+                  </div>
+              </nav>
+          </div>
+      </div>
+  </div>
 </section>
 
 <!--
@@ -120,7 +135,8 @@ Slider Section Start
           </section> <!-- cd-intro -->
           <!-- /.slider -->
           <h2 class="wow fadeInUp animated" data-wow-delay=".6s" style="font-weight: bold;">
-            As a robotics engineer, I am interested in mechanical engineering and data science, with a specialization and love for machine learning. 
+
+            As a robotics engineer, I possess knowledge of mechanical engineering, but my primary interest lies in data science, specifically with a specialization and passion for machine learning.
             This site serves as a portfolio of my experience and work, highlighting projects that demonstrate my expertise, dedication and enthusiasm for mastering this technology.  
         </div>
       </div>

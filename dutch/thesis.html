@@ -20,7 +20,7 @@
         <meta charset="utf-8">
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
         <link rel="icon" href="favicon.ico">
-        <title>Timer Agency Template</title>
+        <title>Master thesis</title>
         <meta name="description" content="">
         <meta name="keywords" content="">
         <meta name="author" content="">
@@ -75,7 +75,7 @@
                   <div class="col-md-12">
                       <nav class="navbar navbar-expand-lg navbar-light bg-light">
                           <div class="logo-container">
-                              <a class="navbar-brand" href="index.html">
+                              <a class="navbar-brand" href="../index_dutch.html">
                                   <img src="../images/logo.png" alt="logo" style="width: 30%; height: 30%;">
                               </a>
                               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -85,15 +85,15 @@
                           </div>
         
                           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                            <ul class="navbar-nav ml-auto">
-                                <li class="nav-item">
-                                    <a class="nav-link" href="../index.html">Home
-                                        <span class="sr-only">(current)</span>
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="../contact.html">Contact</a>
-                                </li>
+                              <ul class="navbar-nav ml-auto">
+                                  <li class="nav-item">
+                                      <a class="nav-link" href="../index_dutch.html">Home
+                                          <span class="sr-only">(current)</span>
+                                      </a>
+                                  </li>
+                                  <li class="nav-item">
+                                      <a class="nav-link" href="../contact_dutch.html">Contact</a>
+                                  </li>
                                   <a href="../index.html"><img src="../images/flag_uk.png" alt="English" style="width: 20px; height: 15px;">&nbsp;&nbsp;&nbsp;&nbsp;      </a>
                                   <a href="../index_dutch.html"><img src="../images/dutch_flag.jpg" alt="Dutch" style="width: 20px; height: 15px;"> </a>
                               </ul>
@@ -113,10 +113,10 @@ Global Page Section Start
     <div class="row">
       <div class="col-md-12">
         <div class="block">
-          <h2>Artificial Intelligence Projects</h2>
+          <h2>Master Thesis Robotica</h2>
           <div class="portfolio-meta">
-            <span>2023-2024</span>|
-            <span> Place: TU Delft</span>
+            <span>Jan 31, 2024</span>|
+            <span> Plaats: TU Delft</span>
           </div>
         </div>
       </div>
@@ -129,54 +129,37 @@ Global Page Section Start
 <section class="work-single">
   <div class="container">
     <div class="row">
+      <div class="col-lg-12 text-center" >
+        <div class="work-single-image">
+            <img class="img-fluid w-100" src="../images/portfolio/chess_original.jpg" style="width: 70% !important;">
+        </div>
+    </div>
+    </div>
+    <div class="row">
       <div class="col-lg-8 mx-auto">
         <!-- work single Content -->
         <div class="work-single-content">
-          <h1>Literature review</h1>
-          <p>This study investigates depth information affects 6D pose estimation using priori known objects at varying camera distances. 
-             The Linemod dataset was used to test the accuracy of three neural-network based models. 
-             based models, and results indicate that although depth can improve pose estimation accuracy, it cannot fully compensate for poorly predicted poses. 
-            The study also suggests several potential directions for future research, such as testing more algorithms
-            and datasets, developing new metrics for measuring difficulty, and investigating the effects of depth
-            enhancement in occluded scenarios. The literature review can be found <a href="https://github.com/maxiew123/file_host/blob/master/Literature_review_max_waterhout.pdf">here!</a> 
+          <h3>Samenvatting</h3>
+          <p>In mijn proefschrift heb ik een schaakrobot ontwikkeld met behulp van een RGB- of RGB-dieptecamera. Het belangrijkste aspect was het trainen van een 6D houdingsschatting model via diep leren technieken, waarbij een aangepaste synthetische dataset werd gebruikt die was gemaakt van 3D-scans van schaakstukken. Bovendien heb ik een validatiedataset gemaakt met echte gegevens om de effectiviteit van mijn modellen te beoordelen om de kloof tussen simulatie en realiteit te evalueren. Het proefschrift omvat ook een vergelijkende analyse van de resultaten van 6D houdingsschattingmodellen, waarbij onderscheid wordt gemaakt tussen modellen gebaseerd op RGB en RGB met diepteverfijning. Daarnaast omvat het onderzoek een evaluatie van de grijpmogelijkheden van een robotarm op de kleine schaakstukken met behulp van de getrainde modellen. Het volledige proefschrift kan worden gelezen op: <a href="https://repository.tudelft.nl/islandora/object/uuid%3A4506c969-220d-4257-ad5b-91853ea83ccb?collection=education">Evaluating 6D pose estimation accuracy with synthetic data </a>.
+          Het gearchiveerde GitHub-repository is hier te vinden: <a href="https://github.com/maxiew123/Thesis-Robotics-Max-Waterhout">hier!</a>
           </p>
-        </div>
+          <h2>Kernpunten</h2>
+          <ul class="bullet-points">
+            <li>60.000 synthetische afbeeldingen gemaakt voor training</li>
+            <li>Een 6D houdingsschatting dataset gemaakt voor validatie met echte wereld data</li>
+            <li>Een Object Detectie model gemaakt</li>
+            <li>Een 6D houdingsschatting model gemaakt</li>
+            <li>Gewerkt met dieptecamera's om het verschil te vergelijken tussen RGB en RGB-diepte</li>
+            <li>Een pipeline gemaakt waarin een Franka-onderzoeksrobot objecten kon oppakken</li>
+          </ul>
+          
       </div>
-      <div class="row">
-        <div class="col-lg-8 mx-auto">
-          <!-- work single Content -->
-          <div class="work-single-content">
-            <h1>Reproducing scientific AI papers from sratch</h1>
-            <h2>Time-Contrastive Networks: Self-Supervised Learning from Video</h2>
-            <p>  
-        Reproducing the paper titled 'Time-Contrastive Networks: Self-Supervised Learning from Video' as part of the Seminar on Computer Vision by Deep Learning course at the Technical University of Delft.         
-        In the field of computer vision, deep neural networks excel in tasks with clear human-labeled data, like object detection.
-        However, challenges arise in labeling complex tasks, such as in robotics, like pouring. 
-        This paper aimed to teach robots to understand pouring tasks solely through observation. 
-        The method involves training a network to learn essential features like pose and liquid volume while being unaffected by different viewpoints and settings. 
-        This method uses supervised and representation learning. A blog and code can be found  work can be found <a href="https://github.com/maxiew123/TCN_self_supervised_learning/tree/main">here</a> and covers motivation, implementation, achieved results, and limitations. 
-        </p>
-      <h2>Robust Visual SLAM Across Seasons</h2>
-          <p>  
-        Reproducing the paper titled 'Robust Visual SLAM Across Seasons' as part of Deep Learning course at the Technical University of Delft.         
-        This paper introduces a visual SLAM method that spots loop closures across seasons by analyzing image sequences. 
-        Using a deep convolutional neural network, it extract descriptors from each image in the sequences. 
-        Then, it creates a similarity matrix by comparing images from one sequence to those from another. 
-        This helps in identifying matching patterns, even with partially similar routes or varying robot speeds.
-        By leveraging this information, it formulates a graph-based SLAM problem to calculate the most likely trajectory.
-        A blog of this work can be found <a href="https://github.com/maxiew123/TCN_self_supervised_learning/tree/main">here</a> and covers motivation, implementation, achieved results, and limitations. 
-        The code can be found <a href="https://github.com/ynzeth/VisualSLAM">here</a>.
-      </p>
-      <h1>Machine failure prediction</h1>
-      <p>  
-        The objective of this project was to forecast machine failures in production. 
-        It involved various aspects of machine learning, including data exploration, training, validation, and result analysis.
-        You can access the code for this project <a href="https://github.com/MaxPolak97/machine-failure-prediction">here</a>.
-      </p>
 
-  </div>
+
+    </div>
   </div>
 </section>
+
           <!--
             ==================================================
             Call To Action Section Start
@@ -186,12 +169,12 @@ Global Page Section Start
                   <div class="row">
                       <div class="col-md-12">
                           <div class="block">
-                              <h2 class="title wow fadeInDown" data-wow-delay=".3s" data-wow-duration="500ms">SO WHAT YOU THINK ?</h1>
+                              <h2 class="title wow fadeInDown" data-wow-delay=".3s" data-wow-duration="500ms">WAT DENK JE EROVER?</h1>
                               <p class="wow fadeInDown" data-wow-delay=".5s" data-wow-duration="500ms">
-                                Interested in working together?<br>
-                                Reach out to me via Whatsapp, LinkedIn, email, phone, or find other contact details below!
+                                Geïnteresseerd om samen te werken?<br>
+                                Neem contact met me op via Whatsapp, LinkedIn, e-mail, telefoon, of vind andere contactgegevens hieronder!
                               </p>
-                              <a href="../contact.html" class="btn btn-default btn-contact wow fadeInDown" data-wow-delay=".7s" data-wow-duration="500ms">Contact With Me</a>
+                              <a href="../contact_dutch.html" class="btn btn-default btn-contact wow fadeInDown" data-wow-delay=".7s" data-wow-duration="500ms">Contact mij!</a>
                           </div>
                       </div>
                       
