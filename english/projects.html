@@ -6,6 +6,12 @@
  // FACEBOOK: https://www.facebook.com/themefisher
  // GITHUB: https://github.com/themefisher/
 -->
+<style>
+  .bullet-points li {
+      list-style-type: disc;
+      margin-left: 20px;
+  }
+</style>
 
 <html class="no-js">
     <head>
@@ -89,10 +95,10 @@ Global Page Section Start
     <div class="row">
       <div class="col-md-12">
         <div class="block">
-          <h2>Data Scientist</h2>
+          <h2>Artificial Intelligence Projects</h2>
           <div class="portfolio-meta">
-            <span>Sep 2022 - Oct 2022</span>|
-            <span> Place: TROI (police)</span>
+            <span>2023-2024</span>|
+            <span> Place: TU Delft</span>
           </div>
         </div>
       </div>
@@ -105,35 +111,59 @@ Global Page Section Start
 <section class="work-single">
   <div class="container">
     <div class="row">
-        <div class="col-lg-12 text-center" >
-          <div class="work-single-image">
-              <img class="img-fluid w-100" src="../images/portfolio/logo_politie_original.png" style="width: 50% !important;">
-          </div>
-      </div>
-    </div>
-    <div class="row">
       <div class="col-lg-8 mx-auto">
         <!-- work single Content -->
         <div class="work-single-content">
-          <h3>Computer vision internship</h3>
-          <!-- Blockquote -->
-          <p>During my 3-month internship as a data scientist at TROI Amsterdam (Team Efficiency Operational Information) with the police, 
-            I developed a model aimed at enhancing detective efficiency by facilitating the retrieval of relevant videos from seized data. 
-            I successfully delivered a proof of concept application that filters videos based on given prompts and presented it to all TROI teams. 
+          <h1>Literature review</h1>
+          <p>This study investigates depth information affects 6D pose estimation using priori known objects at varying camera distances. 
+             The Linemod dataset was used to test the accuracy of three neural-network based models. 
+             based models, and results indicate that although depth can improve pose estimation accuracy, it cannot fully compensate for poorly predicted poses. 
+            The study also suggests several potential directions for future research, such as testing more algorithms
+            and datasets, developing new metrics for measuring difficulty, and investigating the effects of depth
+            enhancement in occluded scenarios. The literature review can be found <a href="https://github.com/maxiew123/file_host/blob/master/Literature_review_max_waterhout.pdf">here!</a> 
           </p>
-          <blockquote>"It was a pleasure working with you, Max!" - Nils Hulzebosch (Supervisor)</blockquote>
-
         </div>
       </div>
-    </div>
+      <div class="row">
+        <div class="col-lg-8 mx-auto">
+          <!-- work single Content -->
+          <div class="work-single-content">
+            <h1>Reproducing scientific AI papers from sratch</h1>
+            <h2>Time-Contrastive Networks: Self-Supervised Learning from Video</h2>
+            <p>  
+        Reproducing the paper titled 'Time-Contrastive Networks: Self-Supervised Learning from Video' as part of the Seminar on Computer Vision by Deep Learning course at the Technical University of Delft.         
+        In the field of computer vision, deep neural networks excel in tasks with clear human-labeled data, like object detection.
+        However, challenges arise in labeling complex tasks, such as in robotics, like pouring. 
+        This paper aimed to teach robots to understand pouring tasks solely through observation. 
+        The method involves training a network to learn essential features like pose and liquid volume while being unaffected by different viewpoints and settings. 
+        This method uses supervised and representation learning. A blog and code can be found  work can be found <a href="https://github.com/maxiew123/TCN_self_supervised_learning/tree/main">here</a> and covers motivation, implementation, achieved results, and limitations. 
+        </p>
+      <h2>Robust Visual SLAM Across Seasons</h2>
+          <p>  
+        Reproducing the paper titled 'Robust Visual SLAM Across Seasons' as part of Deep Learning course at the Technical University of Delft.         
+        This paper introduces a visual SLAM method that spots loop closures across seasons by analyzing image sequences. 
+        Using a deep convolutional neural network, it extract descriptors from each image in the sequences. 
+        Then, it creates a similarity matrix by comparing images from one sequence to those from another. 
+        This helps in identifying matching patterns, even with partially similar routes or varying robot speeds.
+        By leveraging this information, it formulates a graph-based SLAM problem to calculate the most likely trajectory.
+        A blog of this work can be found <a href="https://github.com/maxiew123/TCN_self_supervised_learning/tree/main">here</a> and covers motivation, implementation, achieved results, and limitations. 
+        The code can be found <a href="https://github.com/ynzeth/VisualSLAM">here</a>.
+      </p>
+      <h1>Machine failure prediction</h1>
+      <p>  
+        The objective of this project was to forecast machine failures in production. 
+        It involved various aspects of machine learning, including data exploration, training, validation, and result analysis.
+        You can access the code for this project <a href="https://github.com/MaxPolak97/machine-failure-prediction">here</a>.
+      </p>
+
+  </div>
   </div>
 </section>
-
           <!--
             ==================================================
             Call To Action Section Start
             ================================================== -->
-            <section id="call-to-action">
+            <section id="call-to-action" >
               <div class="container">
                   <div class="row">
                       <div class="col-md-12">
